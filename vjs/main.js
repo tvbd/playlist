@@ -3,24 +3,33 @@ $(document).ready(function () {
 
     player.playlist([
         {
-            name: 'Ptv',
+            name: 'Tsports',
             autoplay: true,
             sources: [
-                {src: 'http://11plus.live/live/ptv/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://103.151.60.214:7444/1101/video.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
-            name: 'TSports',
+            name: 'GTV',
             sources: [
-                {src: 'http://11plus.live/live/tsports/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://103.151.60.214:7444/1102/video.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
             name: 'Star Sports 1',
             sources: [
-                {src: 'http://11plus.live/live/stersports1hd/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://tv.11plus.live/live/stersports1hd/index.m3u8', type: 'application/x-mpegURL'},
             ]
         },
+ {
+            name: 'Star Sports 2',
+            sources: [
+                {src: 'http://tv.11plus.live/live/starsports2/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        },
+
+
+	    
   {
             name: 'Star Sports 1',
             autoplay: true,
